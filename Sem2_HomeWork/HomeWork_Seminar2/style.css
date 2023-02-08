@@ -1,0 +1,18 @@
+body {
+    background-color: beige;
+    font-family: "Face_font", sans-serif;
+}
+h1 {
+    color: blue;
+}
+h2 {color: brown;}
+.big_text {
+    font-size: 30px;
+}
+.small_text {
+    font-size: 10px;
+}
+@font-face {
+    font-family: "Face_font";
+    src: url("./fonts/sfns-display-thin.ttf") format("truetype");
+}
