@@ -38,40 +38,50 @@ https://reqres.in/
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Если интересуетесь Linux-системами, советую посмотреть в сторону дистрибутива manjaro linux:
+Формат сдачи ДЗ - один архив, со всеми файлами и скриншотами, либо pull request на github.
 
-https://manjaro.ru/
+1. Проверить XML, правильно ли он составлен, не имеет ли он ошибок, если есть какие-либо недочеты, предоставьте правильный вариант в файле 1.xml:
 
-Есть и другие варианты, дистрибутив linux mint (на основе debian):
+```
 
-https://www.linuxmint.com/download_lmde.php
+<user>
 
-Выбрать linux самостоятельно
+<name>"Иван"</name>
 
-https://www.youtube.com/results?search_query=linux+%D0%B4%D0%BB%D1%8F+%D0%B4%D0%B5%D1%81%D0%BA%D1%82%D0%BE%D0%BF%D0%B0
+<surname>"Иванов"</surname>
 
-https://www.youtube.com/results?search_query=linux+%D0%B4%D0%BB%D1%8F+%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2
+<patronymic>"Иванович"</patronymic>
 
-Virtual box (для того чтобы поставить операционную систему виртуально):
+<age>"30"</age>
 
-https://www.virtualbox.org/
+<phone>"Москва"</phone>
 
-Расширение для vscode для отправки http запросов:
+<birthplace>"+7 926 766 48 48"</birthplace>
 
-https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+</user
 
-Тестирование API c postman:
+```
 
-https://www.youtube.com/watch?v=zfrQtU8eCEo
+2. Проверить JSON, правильно ли он составлен, не имеет ли он ошибок, если есть какие-либо недочеты, предоставьте правильный вариант в файле 2.json:
 
-https://gb.ru/posts/kak-testirovat-api-ili-postman-dlya-chajnikov
+```
 
-Тестирование API c postman: https://www.youtube.com/watch?v=zfrQtU8eCEo
+name: "Иван",
 
-На степике: https://stepik.org/course/120679/info
+surname: "Иванов",
 
-Еще инфо: https://academy.yandex.ru/handbook/python/article/potokovyj-vvodvyvod-rabota-s-tekstovymi-fajlami-json
+patronymic: "Иванович",
 
-Здесь можно посмотреть пример API и запросов к нему:
+age: "30",
 
-https://reqres.in/
+birthplace: "Москва",
+
+phone: +7 926 766 48 48,
+
+```
+
+Совутую пользоваться парсерами, которые были на семинаре, чтобы проверить что все сделали так, как нужно:
+
+xml-парсер: https://jsonformatter.org/xml-formatter
+
+json-парсер: https://jsonformatter.org/json-parser
